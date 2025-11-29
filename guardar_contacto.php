@@ -41,8 +41,6 @@ try {
     exit;
 
 } catch (PDOException $e) {
-    // En un proyecto real lo guardarías en un log
-    // echo "Error: " . $e->getMessage();
     header('Location: contacto.php?error=1');
     exit;
 }
