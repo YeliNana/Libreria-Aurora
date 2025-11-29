@@ -1,6 +1,4 @@
-// ==========================
 // Año actual en el footer
-// ==========================
 const spanAnio = document.getElementById("anio-actual");
 if (spanAnio) {
   spanAnio.textContent = new Date().getFullYear();
@@ -8,9 +6,7 @@ if (spanAnio) {
 
 const elementosAnimados = [];
 
-// ==========================
 // Al cargar el DOM
-// ==========================
 document.addEventListener("DOMContentLoaded", () => {
   // Animación ligera
   const candidatos = document.querySelectorAll(
@@ -50,10 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
   inicializarBuscadorCards("buscador-autores", "grid-autores", ".autor-card");
 
 });
-
-// ==========================
 // Botón "Ir arriba"
-// ==========================
 function crearBotonScrollTop() {
   const btn = document.createElement("button");
   btn.id = "btn-scroll-top";
@@ -77,9 +70,8 @@ function crearBotonScrollTop() {
   });
 }
 
-// ==========================
 // Scroll suave para anchors internos
-// ==========================
+
 document.addEventListener("click", (e) => {
   const target = e.target.closest('a[href^="#"]');
   if (!target) return;
@@ -92,10 +84,10 @@ document.addEventListener("click", (e) => {
   }
 });
 
-// ==========================
+
 // Buscador en CARDS (Libros)
 // Busca por TÍTULO e ID
-// ==========================
+
 function inicializarBuscadorCards(idInput, idContenedor, selectorItems) {
   const input = document.getElementById(idInput);
   const contenedor = document.getElementById(idContenedor);
@@ -120,9 +112,7 @@ function inicializarBuscadorCards(idInput, idContenedor, selectorItems) {
   });
 }
 
-// ==========================
 // Buscador en TABLA (Autores)
-// ==========================
 function inicializarBuscadorTabla(idInput, idTabla) {
   const input = document.getElementById(idInput);
   const tabla = document.getElementById(idTabla);
