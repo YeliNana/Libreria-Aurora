@@ -1,6 +1,4 @@
-/* ========================
-   PALETA DE COLORES AURORA (NUEVA)
-   ======================== */
+/* PALETA DE COLORES AURORA */
 :root {
   --aurora-primario: #1F2937;
   --aurora-primario-claro: #374151;
@@ -11,9 +9,7 @@
   --aurora-blanco: #ffffff;
 }
 
-/* ========================
-   RESET BÁSICO
-   ======================== */
+/* RESET BÁSICO*/
 *,
 *::before,
 *::after {
@@ -35,9 +31,9 @@ h3,
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-/* ========================
+/* 
    NAVBAR
-   ======================== */
+ */
 .bg-primary {
   background: linear-gradient(90deg, var(--aurora-primario) 0%, var(--aurora-primario-claro) 100%) !important;
 }
@@ -55,9 +51,7 @@ h3,
   color: var(--aurora-acentro) !important;
 }
 
-/* ========================
-   HERO
-   ======================== */
+/* HERO */
 .hero-aurora {
   background: linear-gradient(135deg, rgba(31, 41, 55, 0.05), rgba(17, 24, 39, 0.1));
 }
@@ -78,9 +72,7 @@ h3,
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.15);
 }
 
-/* ========================
-   BOTONES
-   ======================== */
+/* BOTONES */
 .btn-primary {
   background: linear-gradient(135deg, var(--aurora-primario) 0%, var(--aurora-primario-claro) 100%);
   border: none;
@@ -106,15 +98,13 @@ h3,
   color: var(--aurora-blanco);
 }
 
-/* Botón secundario (por si lo usas) */
+/* Botón secundario */
 .btn-secondary {
   background-color: #4B5563;
   border-color: #4B5563;
 }
 
-/* ========================
-   CARDS
-   ======================== */
+/*  CARDS*/
 .card {
   border: none;
   border-radius: 16px;
@@ -130,9 +120,7 @@ h3,
   font-weight: 600;
 }
 
-/* ========================
-   TABLAS
-   ======================== */
+/* TABLAS */
 .table-responsive {
   background-color: var(--aurora-blanco);
   border-radius: 16px;
@@ -160,17 +148,13 @@ h3,
   transform: translateY(-1px);
 }
 
-/* ========================
-   FOOTER
-   ======================== */
+/* FOOTER */
 footer {
   background: linear-gradient(90deg, #111827 0%, #020617 100%) !important;
   color: var(--aurora-blanco);
 }
 
-/* ========================
-   LAYOUT GENERAL
-   ======================== */
+/* LAYOUT GENERAL*/
 html,
 body {
   height: 100%;
