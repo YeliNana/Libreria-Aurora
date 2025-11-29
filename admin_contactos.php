@@ -1,7 +1,7 @@
 <?php
 // admin_contactos.php
 $titulo_pagina = 'Mensajes de contacto';
-$pagina = 'contacto'; // solo para el menú si quieres
+$pagina = 'contacto';
 
 require 'includes/header.php';
 require 'config/db.php';
